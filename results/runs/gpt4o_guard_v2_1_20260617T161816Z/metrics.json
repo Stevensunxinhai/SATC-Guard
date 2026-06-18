@@ -1,0 +1,17 @@
+{
+  "n_segments": 869,
+  "wer": 0.46497111980622324,
+  "cer": 0.35697465249386756,
+  "entity_micro_f1": 0.418413320274241,
+  "entity_tagged_f1": 0.12272420768712071,
+  "ceer": 0.8290980173135996,
+  "hallucination_rate": 0.16141732283464566,
+  "unsafe_auto_use_rate": 0.9602510460251046,
+  "abstention_precision": 1.0,
+  "abstention_recall": 0.0208078335373317,
+  "wer_bootstrap": {
+    "mean": 0.4644692954813797,
+    "ci_low": 0.44480330791158584,
+    "ci_high": 0.48393826955638036
+  }
+}

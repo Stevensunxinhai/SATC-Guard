@@ -1,0 +1,38 @@
+data:
+  cache_dir: data/cache/segments
+  dev_ratio: 0.2
+  filters:
+    correct_transcript_only: true
+    english_only: true
+  manifest_path: data/manifests/segments_v1.jsonl
+  manifest_version: v1
+  split_path: data/manifests/splits/recording_split_v1.json
+evaluation:
+  bootstrap_samples: 10000
+  confidence_level: 0.95
+experiment:
+  harness_version: v2.1.0
+  name: atco2_1h_satc_guard_v2_1
+  prompt_version: v2.1.0
+  protocol: strict_online
+  seed: 42
+harness:
+  context_top_k_callsigns: 20
+  context_top_k_waypoints: 15
+  memory_max_segments: 12
+  memory_window_sec: 60
+inference:
+  checkpoint_every: 10
+  max_workers: 4
+  retry_backoff_sec: 2.0
+  retry_max: 3
+runs:
+- backbone: openai
+  id: gpt4o_guard_v2_1
+  mode: satc_guard_v2_1
+- backbone: qwen
+  id: qwen_guard_v2_1
+  mode: satc_guard_v2_1
+- backbone: mimo
+  id: mimo_guard_v2_1
+  mode: satc_guard_v2_1

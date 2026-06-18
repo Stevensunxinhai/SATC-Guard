@@ -1,0 +1,16 @@
+{
+  "run_id": "mimo_guard_v2",
+  "backbone": "mimo",
+  "mode": "satc_guard_v2",
+  "git_commit": "unknown",
+  "prompt_version": "v2.0.0",
+  "harness_version": "v2.0.0",
+  "prompt_hash": "adeff480883b8a7ca6d989c149f74f1f82a2670d13c462780a93c3256fd2e497",
+  "protocol": "strict_online",
+  "seed": 42,
+  "n_segments_total": 869,
+  "n_pending": 10,
+  "timestamp": "20260618T081254Z",
+  "config_path": "E:\\atc-agent\\configs\\experiment_v2.yaml",
+  "manifest_path": "data\\manifests\\segments_v1.jsonl"
+}

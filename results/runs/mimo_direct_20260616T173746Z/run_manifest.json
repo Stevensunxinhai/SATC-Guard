@@ -1,0 +1,13 @@
+{
+  "run_id": "mimo_direct",
+  "backbone": "mimo",
+  "mode": "direct",
+  "git_commit": "unknown",
+  "prompt_version": "v1.0.0",
+  "prompt_hash": "063d92d1bec114fdc6c7e27cb556afb1a01e1d197d16892a27a867d0829d7a8a",
+  "protocol": "strict_online",
+  "seed": 42,
+  "n_segments_total": 869,
+  "n_pending": 45,
+  "timestamp": "20260616T213126Z"
+}

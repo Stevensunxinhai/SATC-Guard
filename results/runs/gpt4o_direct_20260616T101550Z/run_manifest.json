@@ -1,0 +1,13 @@
+{
+  "run_id": "gpt4o_direct",
+  "backbone": "openai",
+  "mode": "direct",
+  "git_commit": "unknown",
+  "prompt_version": null,
+  "prompt_hash": "84f5269f876a6533d1ec343c2abbd8a7e0d6e3908a82c2b3652d3d8616f9b7d2",
+  "protocol": null,
+  "seed": null,
+  "n_segments_total": 869,
+  "n_pending": 869,
+  "timestamp": "20260616T101550Z"
+}

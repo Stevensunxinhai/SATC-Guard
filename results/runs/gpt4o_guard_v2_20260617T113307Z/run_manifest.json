@@ -1,0 +1,16 @@
+{
+  "run_id": "gpt4o_guard_v2",
+  "backbone": "openai",
+  "mode": "satc_guard_v2",
+  "git_commit": "unknown",
+  "prompt_version": "v2.0.0",
+  "harness_version": "v2.0.0",
+  "prompt_hash": "adeff480883b8a7ca6d989c149f74f1f82a2670d13c462780a93c3256fd2e497",
+  "protocol": "strict_online",
+  "seed": 42,
+  "n_segments_total": 869,
+  "n_pending": 869,
+  "timestamp": "20260617T113307Z",
+  "config_path": "E:\\atc-agent\\configs\\experiment_v2.yaml",
+  "manifest_path": "data\\manifests\\segments_v1.jsonl"
+}

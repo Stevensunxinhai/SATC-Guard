@@ -1,0 +1,5 @@
+{"utt_id": "atco2_test-set-v3_en_LSZH_ZURICH_Tower_118_1MHz_20210412_163754-A!000001-000472", "error": "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)"}
+{"utt_id": "atco2_test-set-v3_en_LSZH_ZURICH_Tower_118_1MHz_20210412_191440-A!000000-000350", "error": "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)"}
+{"utt_id": "atco2_test-set-v3_en_LSZH_ZURICH_Tower_118_1MHz_20210412_194406-A!000011-000365", "error": "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)"}
+{"utt_id": "atco2_test-set-v3_en_LSZH_ZURICH_Tower_118_1MHz_20210412_205041-A!000014-000509", "error": "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)"}
+{"utt_id": "atco2_test-set-v3_en_LSZH_ZURICH_Tower_118_1MHz_20210412_205041-B!000540-000809", "error": "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)"}

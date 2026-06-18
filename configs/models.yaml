@@ -1,0 +1,22 @@
+openai:
+  transcribe_model: ${OPENAI_TRANSCRIBE_MODEL}
+  audio_chat_model: ${OPENAI_AUDIO_CHAT_MODEL}
+  transcribe:
+    language: en
+    temperature: 0
+    response_format: json
+  audio_chat:
+    temperature: 0
+
+qwen:
+  model: ${QWEN_OMNI_MODEL}
+  modalities: ["text"]
+  stream: true
+  extra_body:
+    enable_thinking: false
+
+mimo:
+  model: ${MIMO_ASR_MODEL}
+  base_url: ${MIMO_BASE_URL}
+  asr_options:
+    language: ${MIMO_ASR_LANGUAGE}
